@@ -20,7 +20,7 @@
     },
     "packageManager": "pnpm@9.5.0",
     "devDependencies": {
-        "@pinia/nuxt": "latest",
+        "@pinia/nuxt": "^0.5.5",
         "@unocss/nuxt": "latest",
         "consola": "^3.2.3",
         "sass": "^1.82.0",
