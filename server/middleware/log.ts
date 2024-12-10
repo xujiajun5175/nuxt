@@ -7,5 +7,5 @@
  * @FilePath: /my-nuxt/server/middleware/log.ts
  */
 export default defineEventHandler((event) => {
-    console.log('新请求:', +getRequestURL(event))
+    // console.log('新请求:', +getRequestURL(event))
 })

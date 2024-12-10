@@ -10,7 +10,7 @@
         "postinstall": "nuxt prepare"
     },
     "dependencies": {
-        "@nuxthub/core": "0.8.7",
+        "@nuxthub/core": "npm:@nuxthub/core@nightly",
         "@vueuse/core": "^12.0.0",
         "@vueuse/nuxt": "^12.0.0",
         "gsap": "^3.12.5",
@@ -18,12 +18,13 @@
         "vue": "latest",
         "vue-router": "latest"
     },
-    "packageManager": "pnpm@9.0.6+sha1.648f6014eb363abb36618f2ba59282a9eeb3e879",
+    "packageManager": "pnpm@9.5.0",
     "devDependencies": {
         "@pinia/nuxt": "latest",
         "@unocss/nuxt": "latest",
         "consola": "^3.2.3",
         "sass": "^1.82.0",
-        "unocss": "latest"
+        "unocss": "latest",
+        "wrangler": "^3.94.0"
     }
 }

@@ -1,7 +1,7 @@
 <!--
  * @Author: 徐家俊 15151832830@163.com
  * @Date: 2024-12-02 11:11:06
- * @LastEditTime: 2024-12-09 17:10:26
+ * @LastEditTime: 2024-12-10 11:32:14
  * @LastEditors: 徐家俊 15151832830@163.com
  * @Description: 
  * @FilePath: /my-nuxt/pages/index.vue
@@ -11,8 +11,8 @@
     const route = useRoute()
     const counter = ref(0)
 
-const {data} = await useFetch('/api/hello')
-const {data:serverRoute} = await useFetch('/hello')
+// const {data} = await useFetch('/api/hello')
+// const {data:serverRoute} = await useFetch('/hello')
 </script>
 
 <template>
@@ -24,8 +24,8 @@ const {data:serverRoute} = await useFetch('/hello')
         <button @click="counter++">+</button>
         <button @click="counter--">-</button>
     </div>
-    <div>{{ data?.hello }}</div>
-    <div>{{ serverRoute }}</div>
+    <!-- <div>{{ data?.hello }}</div> -->
+    <!-- <div>{{ serverRoute }}</div> -->
     <div>
         <h1>Nuxt Routing set up successfully!</h1>
         <p>Current route: {{ route.path }}</p>
